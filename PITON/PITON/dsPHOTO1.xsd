@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPHOTO" targetNamespace="http://tempuri.org/dsPHOTO1.xsd" xmlns:mstns="http://tempuri.org/dsPHOTO1.xsd" xmlns="http://tempuri.org/dsPHOTO1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPHOTO" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsPHOTO" msprop:Generator_DataSetName="dsPHOTO">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BODY" msprop:Generator_TableClassName="BODYDataTable" msprop:Generator_TableVarName="tableBODY" msprop:Generator_TablePropName="BODY" msprop:Generator_RowDeletingName="BODYRowDeleting" msprop:Generator_RowChangingName="BODYRowChanging" msprop:Generator_RowEvHandlerName="BODYRowChangeEventHandler" msprop:Generator_RowDeletedName="BODYRowDeleted" msprop:Generator_UserTableName="BODY" msprop:Generator_RowChangedName="BODYRowChanged" msprop:Generator_RowEvArgName="BODYRowChangeEvent" msprop:Generator_RowClassName="BODYRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_BODY" msprop:Generator_ColumnVarNameInTable="columnID_BODY" msprop:Generator_ColumnPropNameInRow="ID_BODY" msprop:Generator_ColumnPropNameInTable="ID_BODYColumn" msprop:Generator_UserColumnName="ID_BODY">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BODY" msprop:Generator_ColumnVarNameInTable="columnBODY" msprop:Generator_ColumnPropNameInRow="BODY" msprop:Generator_ColumnPropNameInTable="BODYColumn" msprop:Generator_UserColumnName="BODY">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:BODY" />
+      <xs:field xpath="mstns:ID_BODY" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

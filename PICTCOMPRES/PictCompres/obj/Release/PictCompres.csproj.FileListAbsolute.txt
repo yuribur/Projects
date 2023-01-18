@@ -1,0 +1,26 @@
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\bin\Release\PictCompres.exe.config
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\bin\Release\PictCompres.exe
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\bin\Release\PictCompres.pdb
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Release\PictCompres.btnDir.resources
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Release\PictCompres.Properties.Resources.resources
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Release\PictCompres.csproj.GenerateResource.Cache
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Release\PictCompres.exe
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Release\PictCompres.pdb
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\bin\Release\PictCompres.exe.config
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\bin\Release\PictCompres.exe
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\bin\Release\PictCompres.pdb
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Release\PictCompres.btnDir.resources
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Release\PictCompres.Properties.Resources.resources
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Release\PictCompres.csproj.GenerateResource.Cache
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Release\PictCompres.csproj.CoreCompileInputs.cache
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Release\PictCompres.exe
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Release\PictCompres.pdb
+c:\Projects\PictCompres\PictCompres\bin\Release\PictCompres.exe.config
+c:\Projects\PictCompres\PictCompres\bin\Release\PictCompres.exe
+c:\Projects\PictCompres\PictCompres\bin\Release\PictCompres.pdb
+c:\Projects\PictCompres\PictCompres\obj\Release\PictCompres.btnDir.resources
+c:\Projects\PictCompres\PictCompres\obj\Release\PictCompres.Properties.Resources.resources
+c:\Projects\PictCompres\PictCompres\obj\Release\PictCompres.csproj.GenerateResource.cache
+c:\Projects\PictCompres\PictCompres\obj\Release\PictCompres.csproj.CoreCompileInputs.cache
+c:\Projects\PictCompres\PictCompres\obj\Release\PictCompres.exe
+c:\Projects\PictCompres\PictCompres\obj\Release\PictCompres.pdb

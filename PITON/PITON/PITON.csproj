@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{394CAD32-A586-486A-957B-4C5A96A7FDEA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PITON</RootNamespace>
+    <AssemblyName>PITON</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sn.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Microsoft.Office.Core">
+      <HintPath>.\Interop.Microsoft.Office.Core.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Interop.Excel">
+      <HintPath>.\Interop.Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.VBIDE">
+      <HintPath>.\Interop.VBIDE.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Convertor.cs" />
+    <Compile Include="dsCatal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCatal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFind.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFind.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPHOTO1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPHOTO1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSensor1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSensor1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSize.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSize.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTest.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTest.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsv.cs">
+      <DependentUpon>dsv.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsv.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Excell.cs" />
+    <Compile Include="frmCOLORS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCOLORS.Designer.cs">
+      <DependentUpon>frmCOLORS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDump.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDump.Designer.cs">
+      <DependentUpon>frmDump.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfo.designer.cs">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLOCATION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLOCATION.Designer.cs">
+      <DependentUpon>frmLOCATION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessage.Designer.cs">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAccord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccord.designer.cs">
+      <DependentUpon>frmAccord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnalog.designer.cs">
+      <DependentUpon>frmAnalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDD.designer.cs">
+      <DependentUpon>frmDD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDelModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDelModel.designer.cs">
+      <DependentUpon>frmDelModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMarka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMarka.designer.cs">
+      <DependentUpon>frmMarka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModel.designer.cs">
+      <DependentUpon>frmModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPRIMENITE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPRIMENITE.Designer.cs">
+      <DependentUpon>frmPRIMENITE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPROCENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPROCENT.Designer.cs">
+      <DependentUpon>frmPROCENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSize.designer.cs">
+      <DependentUpon>frmSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSTRIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSTRIP.Designer.cs">
+      <DependentUpon>frmSTRIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PITHONDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PITHONDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCOLORS.resx">
+      <DependentUpon>frmCOLORS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDump.resx">
+      <DependentUpon>frmDump.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo.resx">
+      <DependentUpon>frmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLOCATION.resx">
+      <DependentUpon>frmLOCATION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessage.resx">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAccord.resx">
+      <DependentUpon>frmAccord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnalog.resx">
+      <DependentUpon>frmAnalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDD.resx">
+      <DependentUpon>frmDD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDelModel.resx">
+      <DependentUpon>frmDelModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarka.resx">
+      <DependentUpon>frmMarka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModel.resx">
+      <DependentUpon>frmModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhoto.resx">
+      <DependentUpon>frmPhoto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPRIMENITE.resx">
+      <DependentUpon>frmPRIMENITE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPROCENT.resx">
+      <DependentUpon>frmPROCENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSize.resx">
+      <DependentUpon>frmSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSTRIP.resx">
+      <DependentUpon>frmSTRIP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="dsCatal.xsc">
+      <DependentUpon>dsCatal.xsd</DependentUpon>
+    </None>
+    <None Include="dsCatal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCatal.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCatal.xss">
+      <DependentUpon>dsCatal.xsd</DependentUpon>
+    </None>
+    <None Include="dsFind.xsc">
+      <DependentUpon>dsFind.xsd</DependentUpon>
+    </None>
+    <None Include="dsFind.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFind.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsFind.xss">
+      <DependentUpon>dsFind.xsd</DependentUpon>
+    </None>
+    <None Include="dsPHOTO1.xsc">
+      <DependentUpon>dsPHOTO1.xsd</DependentUpon>
+    </None>
+    <None Include="dsPHOTO1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPHOTO1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPHOTO1.xss">
+      <DependentUpon>dsPHOTO1.xsd</DependentUpon>
+    </None>
+    <None Include="dsSensor1.xsc">
+      <DependentUpon>dsSensor1.xsd</DependentUpon>
+    </None>
+    <None Include="dsSensor1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSensor1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSensor1.xss">
+      <DependentUpon>dsSensor1.xsd</DependentUpon>
+    </None>
+    <None Include="dsSize.xsc">
+      <DependentUpon>dsSize.xsd</DependentUpon>
+    </None>
+    <None Include="dsSize.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSize.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsSize.xss">
+      <DependentUpon>dsSize.xsd</DependentUpon>
+    </None>
+    <None Include="dsTest.xsc">
+      <DependentUpon>dsTest.xsd</DependentUpon>
+    </None>
+    <None Include="dsTest.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTest.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsTest.xss">
+      <DependentUpon>dsTest.xsd</DependentUpon>
+    </None>
+    <None Include="dsv.xsc">
+      <DependentUpon>dsv.xsd</DependentUpon>
+    </None>
+    <None Include="dsv.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsv.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsv.xss">
+      <DependentUpon>dsv.xsd</DependentUpon>
+    </None>
+    <None Include="PITHONDataSet.xsc">
+      <DependentUpon>PITHONDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PITHONDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PITHONDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PITHONDataSet.xss">
+      <DependentUpon>PITHONDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Accord.ico" />
+    <Content Include="Resources\Accord1.ico" />
+    <Content Include="Resources\Accordance.bmp" />
+    <Content Include="Resources\Analog.bmp" />
+    <Content Include="Resources\Bottom.gif" />
+    <Content Include="Resources\Bottom.JPG" />
+    <Content Include="Resources\BSG.bmp" />
+    <Content Include="Resources\CAMERA.BMP" />
+    <Content Include="Resources\Corm.bmp" />
+    <Content Include="Resources\Cut.bmp" />
+    <Content Include="Resources\DropModel.bmp" />
+    <Content Include="sn.ico" />
+    <None Include="Resources\Dump.bmp" />
+    <Content Include="Resources\EditModel.bmp" />
+    <Content Include="Resources\eps_closed.bmp" />
+    <Content Include="Resources\Europa.bmp" />
+    <None Include="Resources\Excel.bmp" />
+    <Content Include="Resources\Exit.bmp" />
+    <Content Include="Resources\favicon.ico" />
+    <Content Include="Resources\FIND.BMP" />
+    <Content Include="Resources\FromMemo.bmp" />
+    <Content Include="Resources\FYG.bmp" />
+    <Content Include="Resources\Home.bmp" />
+    <Content Include="Resources\InsertModel.bmp" />
+    <Content Include="Resources\Logo.gif" />
+    <Content Include="Resources\Marka.bmp" />
+    <Content Include="Resources\Model.bmp" />
+    <Content Include="Resources\MoveModel.bmp" />
+    <Content Include="Resources\NEW.bmp" />
+    <Content Include="Resources\NewModel.bmp" />
+    <Content Include="Resources\Order.bmp" />
+    <Content Include="Resources\Orders.bmp" />
+    <Content Include="Resources\PHOTO.BMP" />
+    <Content Include="Resources\Pithon.ico" />
+    <Content Include="Resources\Plus.bmp" />
+    <Content Include="Resources\Print.bmp" />
+    <Content Include="Resources\SendCorn.bmp" />
+    <Content Include="Resources\Size.bmp" />
+    <Content Include="Resources\Spy1.bmp" />
+    <Content Include="Resources\Spyicon.bmp" />
+    <Content Include="Resources\status_anim.gif" />
+    <Content Include="Resources\Textbox.bmp" />
+    <Content Include="Resources\Top.gif" />
+    <Content Include="Resources\Top.JPG" />
+    <Content Include="Resources\TRASH.bmp" />
+    <Content Include="Resources\Tree.bmp" />
+    <Content Include="Resources\Updates.bmp" />
+    <Content Include="Resources\waiting.gif" />
+    <None Include="Resources\WM.bmp" />
+    <None Include="Resources\WM1.bmp" />
+    <Content Include="Resources\WWW.bmp" />
+    <Content Include="Resources\Xyg.bmp" />
+    <Content Include="Resources\Zakaz.bmp" />
+    <Content Include="Resources\ДД.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Access.Dao">
+      <Guid>{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}</Guid>
+      <VersionMajor>12</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

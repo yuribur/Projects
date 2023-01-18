@@ -1,0 +1,10 @@
+C:\Projects\KUNCEVO\KUNCEVO\bin\Release\KUNCEVO.exe.config
+C:\Projects\KUNCEVO\KUNCEVO\bin\Release\KUNCEVO.exe
+C:\Projects\KUNCEVO\KUNCEVO\bin\Release\KUNCEVO.pdb
+C:\Projects\KUNCEVO\KUNCEVO\obj\Release\KUNCEVO.csproj.ResolveComReference.cache
+C:\Projects\KUNCEVO\KUNCEVO\obj\Release\KUNCEVO.Form1.resources
+C:\Projects\KUNCEVO\KUNCEVO\obj\Release\KUNCEVO.Properties.Resources.resources
+C:\Projects\KUNCEVO\KUNCEVO\obj\Release\KUNCEVO.csproj.GenerateResource.cache
+C:\Projects\KUNCEVO\KUNCEVO\obj\Release\KUNCEVO.csproj.CoreCompileInputs.cache
+C:\Projects\KUNCEVO\KUNCEVO\obj\Release\KUNCEVO.exe
+C:\Projects\KUNCEVO\KUNCEVO\obj\Release\KUNCEVO.pdb

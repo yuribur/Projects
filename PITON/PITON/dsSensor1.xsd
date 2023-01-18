@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSensor1" targetNamespace="http://tempuri.org/dsSensor1.xsd" xmlns:mstns="http://tempuri.org/dsSensor1.xsd" xmlns="http://tempuri.org/dsSensor1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSensor1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsSensor1" msprop:Generator_DataSetName="dsSensor1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FromSensors" msprop:Generator_UserTableName="FromSensors" msprop:Generator_RowDeletedName="FromSensorsRowDeleted" msprop:Generator_RowChangedName="FromSensorsRowChanged" msprop:Generator_RowClassName="FromSensorsRow" msprop:Generator_RowChangingName="FromSensorsRowChanging" msprop:Generator_RowEvArgName="FromSensorsRowChangeEvent" msprop:Generator_RowEvHandlerName="FromSensorsRowChangeEventHandler" msprop:Generator_TableClassName="FromSensorsDataTable" msprop:Generator_TableVarName="tableFromSensors" msprop:Generator_RowDeletingName="FromSensorsRowDeleting" msprop:Generator_TablePropName="FromSensors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_SENSOR" msprop:Generator_UserColumnName="ID_SENSOR" msprop:Generator_ColumnPropNameInRow="ID_SENSOR" msprop:Generator_ColumnVarNameInTable="columnID_SENSOR" msprop:Generator_ColumnPropNameInTable="ID_SENSORColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SensorPhoto" msprop:Generator_UserColumnName="SensorPhoto" msprop:Generator_ColumnPropNameInRow="SensorPhoto" msprop:Generator_ColumnVarNameInTable="columnSensorPhoto" msprop:Generator_ColumnPropNameInTable="SensorPhotoColumn" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SENSOR" msprop:Generator_UserTableName="SENSOR" msprop:Generator_RowDeletedName="SENSORRowDeleted" msprop:Generator_RowChangedName="SENSORRowChanged" msprop:Generator_RowClassName="SENSORRow" msprop:Generator_RowChangingName="SENSORRowChanging" msprop:Generator_RowEvArgName="SENSORRowChangeEvent" msprop:Generator_RowEvHandlerName="SENSORRowChangeEventHandler" msprop:Generator_TableClassName="SENSORDataTable" msprop:Generator_TableVarName="tableSENSOR" msprop:Generator_RowDeletingName="SENSORRowDeleting" msprop:Generator_TablePropName="SENSOR">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_Sensor" msprop:Generator_UserColumnName="ID_Sensor" msprop:Generator_ColumnPropNameInRow="ID_Sensor" msprop:Generator_ColumnVarNameInTable="columnID_Sensor" msprop:Generator_ColumnPropNameInTable="ID_SensorColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SensorPhoto" msprop:Generator_UserColumnName="SensorPhoto" msprop:Generator_ColumnPropNameInRow="SensorPhoto" msprop:Generator_ColumnVarNameInTable="columnSensorPhoto" msprop:Generator_ColumnPropNameInTable="SensorPhotoColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="Y1" msprop:Generator_UserColumnName="Y1" msprop:Generator_ColumnVarNameInTable="columnY1" msprop:Generator_ColumnPropNameInRow="Y1" msprop:Generator_ColumnPropNameInTable="Y1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M1" msprop:Generator_UserColumnName="M1" msprop:Generator_ColumnVarNameInTable="columnM1" msprop:Generator_ColumnPropNameInRow="M1" msprop:Generator_ColumnPropNameInTable="M1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Y2" msprop:Generator_UserColumnName="Y2" msprop:Generator_ColumnVarNameInTable="columnY2" msprop:Generator_ColumnPropNameInRow="Y2" msprop:Generator_ColumnPropNameInTable="Y2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M2" msprop:Generator_UserColumnName="M2" msprop:Generator_ColumnVarNameInTable="columnM2" msprop:Generator_ColumnPropNameInRow="M2" msprop:Generator_ColumnPropNameInTable="M2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

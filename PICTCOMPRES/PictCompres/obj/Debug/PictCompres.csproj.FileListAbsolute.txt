@@ -1,0 +1,47 @@
+C:\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.exe.config
+C:\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.csprojResolveAssemblyReference.cache
+C:\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.btnDir.resources
+C:\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.Properties.Resources.resources
+C:\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.csproj.GenerateResource.Cache
+C:\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.exe
+C:\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.pdb
+C:\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.exe
+C:\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.pdb
+c:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.exe.config
+c:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.exe
+c:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.pdb
+C:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.exe
+C:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.pdb
+C:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.csprojResolveAssemblyReference.cache
+C:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.btnDir.resources
+C:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.Properties.Resources.resources
+C:\Users\ЮБ\Documents\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.csproj.GenerateResource.Cache
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.exe.config
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.exe
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.pdb
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.btnDir.resources
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.Properties.Resources.resources
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.csproj.GenerateResource.Cache
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.exe
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\bin\Debug\PictCompres.pdb
+C:\Users\ЮБ\VSPro\PictCompres\PictCompres\obj\Debug\PictCompres.csprojResolveAssemblyReference.cache
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\bin\Debug\PictCompres.exe.config
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\bin\Debug\PictCompres.exe
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\bin\Debug\PictCompres.pdb
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.csprojResolveAssemblyReference.cache
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.btnDir.resources
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.Properties.Resources.resources
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.csproj.GenerateResource.Cache
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.csproj.CoreCompileInputs.cache
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.exe
+C:\Users\ЮБ\Documents\Visual Studio 2017\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.pdb
+c:\Projects\PictCompres\PictCompres\bin\Debug\PictCompres.exe.config
+c:\Projects\PictCompres\PictCompres\bin\Debug\PictCompres.exe
+c:\Projects\PictCompres\PictCompres\bin\Debug\PictCompres.pdb
+c:\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.btnDir.resources
+c:\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.Properties.Resources.resources
+c:\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.csproj.GenerateResource.cache
+c:\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.exe
+c:\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.pdb
+C:\Projects\PictCompres\PictCompres\obj\Debug\PictCompres.csproj.CoreCompileInputs.cache
+C:\Projects\PICTCOMPRES\PictCompres\obj\Debug\PictCompres.csproj.AssemblyReference.cache

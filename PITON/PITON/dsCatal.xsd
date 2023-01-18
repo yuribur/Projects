@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCatal" targetNamespace="http://tempuri.org/dsCatal.xsd" xmlns:mstns="http://tempuri.org/dsCatal.xsd" xmlns="http://tempuri.org/dsCatal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCatal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCatal" msprop:Generator_DataSetName="dsCatal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TEST_CATALOG_BSG" msprop:Generator_UserTableName="TEST_CATALOG_BSG" msprop:Generator_RowDeletedName="TEST_CATALOG_BSGRowDeleted" msprop:Generator_RowChangedName="TEST_CATALOG_BSGRowChanged" msprop:Generator_RowClassName="TEST_CATALOG_BSGRow" msprop:Generator_RowChangingName="TEST_CATALOG_BSGRowChanging" msprop:Generator_RowEvArgName="TEST_CATALOG_BSGRowChangeEvent" msprop:Generator_RowEvHandlerName="TEST_CATALOG_BSGRowChangeEventHandler" msprop:Generator_TableClassName="TEST_CATALOG_BSGDataTable" msprop:Generator_TableVarName="tableTEST_CATALOG_BSG" msprop:Generator_RowDeletingName="TEST_CATALOG_BSGRowDeleting" msprop:Generator_TablePropName="TEST_CATALOG_BSG">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="НАИМЕНОВАНИЕ" msprop:Generator_UserColumnName="НАИМЕНОВАНИЕ" msprop:Generator_ColumnVarNameInTable="columnНАИМЕНОВАНИЕ" msprop:Generator_ColumnPropNameInRow="НАИМЕНОВАНИЕ" msprop:Generator_ColumnPropNameInTable="НАИМЕНОВАНИЕColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ЕВРОКОД" msprop:Generator_UserColumnName="ЕВРОКОД" msprop:Generator_ColumnVarNameInTable="columnЕВРОКОД" msprop:Generator_ColumnPropNameInRow="ЕВРОКОД" msprop:Generator_ColumnPropNameInTable="ЕВРОКОДColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FYGКОД" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FYGКОД" msprop:Generator_ColumnVarNameInTable="columnFYGКОД" msprop:Generator_ColumnPropNameInRow="FYGКОД" msprop:Generator_ColumnPropNameInTable="FYGКОДColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="XYGКОД" msprop:Generator_UserColumnName="XYGКОД" msprop:Generator_ColumnVarNameInTable="columnXYGКОД" msprop:Generator_ColumnPropNameInRow="XYGКОД" msprop:Generator_ColumnPropNameInTable="XYGКОДColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TEST_CATALOG_FYG" msprop:Generator_UserTableName="TEST_CATALOG_FYG" msprop:Generator_RowDeletedName="TEST_CATALOG_FYGRowDeleted" msprop:Generator_RowChangedName="TEST_CATALOG_FYGRowChanged" msprop:Generator_RowClassName="TEST_CATALOG_FYGRow" msprop:Generator_RowChangingName="TEST_CATALOG_FYGRowChanging" msprop:Generator_RowEvArgName="TEST_CATALOG_FYGRowChangeEvent" msprop:Generator_RowEvHandlerName="TEST_CATALOG_FYGRowChangeEventHandler" msprop:Generator_TableClassName="TEST_CATALOG_FYGDataTable" msprop:Generator_TableVarName="tableTEST_CATALOG_FYG" msprop:Generator_RowDeletingName="TEST_CATALOG_FYGRowDeleting" msprop:Generator_TablePropName="TEST_CATALOG_FYG">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="НАИМЕНОВАНИЕ" msprop:Generator_UserColumnName="НАИМЕНОВАНИЕ" msprop:Generator_ColumnVarNameInTable="columnНАИМЕНОВАНИЕ" msprop:Generator_ColumnPropNameInRow="НАИМЕНОВАНИЕ" msprop:Generator_ColumnPropNameInTable="НАИМЕНОВАНИЕColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ЕВРОКОД" msprop:Generator_UserColumnName="ЕВРОКОД" msprop:Generator_ColumnVarNameInTable="columnЕВРОКОД" msprop:Generator_ColumnPropNameInRow="ЕВРОКОД" msprop:Generator_ColumnPropNameInTable="ЕВРОКОДColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FYGКОД" msprop:Generator_UserColumnName="FYGКОД" msprop:Generator_ColumnVarNameInTable="columnFYGКОД" msprop:Generator_ColumnPropNameInRow="FYGКОД" msprop:Generator_ColumnPropNameInTable="FYGКОДColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="XYGКОД" msdata:ReadOnly="true" msprop:Generator_UserColumnName="XYGКОД" msprop:Generator_ColumnVarNameInTable="columnXYGКОД" msprop:Generator_ColumnPropNameInRow="XYGКОД" msprop:Generator_ColumnPropNameInTable="XYGКОДColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TEST_CATALOG_XYG" msprop:Generator_UserTableName="TEST_CATALOG_XYG" msprop:Generator_RowDeletedName="TEST_CATALOG_XYGRowDeleted" msprop:Generator_RowChangedName="TEST_CATALOG_XYGRowChanged" msprop:Generator_RowClassName="TEST_CATALOG_XYGRow" msprop:Generator_RowChangingName="TEST_CATALOG_XYGRowChanging" msprop:Generator_RowEvArgName="TEST_CATALOG_XYGRowChangeEvent" msprop:Generator_RowEvHandlerName="TEST_CATALOG_XYGRowChangeEventHandler" msprop:Generator_TableClassName="TEST_CATALOG_XYGDataTable" msprop:Generator_TableVarName="tableTEST_CATALOG_XYG" msprop:Generator_RowDeletingName="TEST_CATALOG_XYGRowDeleting" msprop:Generator_TablePropName="TEST_CATALOG_XYG">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="НАИМЕНОВАНИЕ" msprop:Generator_UserColumnName="НАИМЕНОВАНИЕ" msprop:Generator_ColumnPropNameInRow="НАИМЕНОВАНИЕ" msprop:Generator_ColumnVarNameInTable="columnНАИМЕНОВАНИЕ" msprop:Generator_ColumnPropNameInTable="НАИМЕНОВАНИЕColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ЕВРОКОД" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ЕВРОКОД" msprop:Generator_ColumnPropNameInRow="ЕВРОКОД" msprop:Generator_ColumnVarNameInTable="columnЕВРОКОД" msprop:Generator_ColumnPropNameInTable="ЕВРОКОДColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FYGКОД" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FYGКОД" msprop:Generator_ColumnPropNameInRow="FYGКОД" msprop:Generator_ColumnVarNameInTable="columnFYGКОД" msprop:Generator_ColumnPropNameInTable="FYGКОДColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="XYGКОД" msprop:Generator_UserColumnName="XYGКОД" msprop:Generator_ColumnPropNameInRow="XYGКОД" msprop:Generator_ColumnVarNameInTable="columnXYGКОД" msprop:Generator_ColumnPropNameInTable="XYGКОДColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CATALOG_FYG" msprop:Generator_UserTableName="CATALOG_FYG" msprop:Generator_RowDeletedName="CATALOG_FYGRowDeleted" msprop:Generator_RowChangedName="CATALOG_FYGRowChanged" msprop:Generator_RowClassName="CATALOG_FYGRow" msprop:Generator_RowChangingName="CATALOG_FYGRowChanging" msprop:Generator_RowEvArgName="CATALOG_FYGRowChangeEvent" msprop:Generator_RowEvHandlerName="CATALOG_FYGRowChangeEventHandler" msprop:Generator_TableClassName="CATALOG_FYGDataTable" msprop:Generator_TableVarName="tableCATALOG_FYG" msprop:Generator_RowDeletingName="CATALOG_FYGRowDeleting" msprop:Generator_TablePropName="CATALOG_FYG">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MODEL" msprop:Generator_UserColumnName="MODEL" msprop:Generator_ColumnVarNameInTable="columnMODEL" msprop:Generator_ColumnPropNameInRow="MODEL" msprop:Generator_ColumnPropNameInTable="MODELColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WIDTH" msprop:Generator_UserColumnName="WIDTH" msprop:Generator_ColumnVarNameInTable="columnWIDTH" msprop:Generator_ColumnPropNameInRow="WIDTH" msprop:Generator_ColumnPropNameInTable="WIDTHColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="HEIGHT" msprop:Generator_UserColumnName="HEIGHT" msprop:Generator_ColumnVarNameInTable="columnHEIGHT" msprop:Generator_ColumnPropNameInRow="HEIGHT" msprop:Generator_ColumnPropNameInTable="HEIGHTColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="CENTR" msprop:Generator_UserColumnName="CENTR" msprop:Generator_ColumnVarNameInTable="columnCENTR" msprop:Generator_ColumnPropNameInRow="CENTR" msprop:Generator_ColumnPropNameInTable="CENTRColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="DIAGO" msprop:Generator_UserColumnName="DIAGO" msprop:Generator_ColumnVarNameInTable="columnDIAGO" msprop:Generator_ColumnPropNameInRow="DIAGO" msprop:Generator_ColumnPropNameInTable="DIAGOColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="FYGCODE" msdata:ReadOnly="true" msprop:Generator_UserColumnName="FYGCODE" msprop:Generator_ColumnVarNameInTable="columnFYGCODE" msprop:Generator_ColumnPropNameInRow="FYGCODE" msprop:Generator_ColumnPropNameInTable="FYGCODEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

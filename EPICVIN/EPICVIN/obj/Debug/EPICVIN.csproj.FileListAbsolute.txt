@@ -1,0 +1,14 @@
+C:\Projects\EPICVIN\EPICVIN\bin\Debug\EPICVIN.exe.config
+C:\Projects\EPICVIN\EPICVIN\bin\Debug\EPICVIN.exe
+C:\Projects\EPICVIN\EPICVIN\bin\Debug\EPICVIN.pdb
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.csproj.AssemblyReference.cache
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.csproj.SuggestedBindingRedirects.cache
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.Properties.Resources.resources
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.csproj.GenerateResource.cache
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.csproj.CoreCompileInputs.cache
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.exe
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.pdb
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.frmMain.resources
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\Interop.DTSPipeline.dll
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\EPICVIN.csproj.ResolveComReference.cache
+C:\Projects\EPICVIN\EPICVIN\obj\Debug\Interop.ADODB.dll

@@ -1,0 +1,11 @@
+C:\Projects\XYGA\XYGA\bin\Release\XYGA.exe.config
+C:\Projects\XYGA\XYGA\bin\Release\XYGA.exe
+C:\Projects\XYGA\XYGA\bin\Release\XYGA.pdb
+C:\Projects\XYGA\XYGA\obj\Release\XYGA.csproj.AssemblyReference.cache
+C:\Projects\XYGA\XYGA\obj\Release\XYGA.csproj.SuggestedBindingRedirects.cache
+C:\Projects\XYGA\XYGA\obj\Release\XYGA.frmMain.resources
+C:\Projects\XYGA\XYGA\obj\Release\XYGA.Properties.Resources.resources
+C:\Projects\XYGA\XYGA\obj\Release\XYGA.csproj.GenerateResource.cache
+C:\Projects\XYGA\XYGA\obj\Release\XYGA.csproj.CoreCompileInputs.cache
+C:\Projects\XYGA\XYGA\obj\Release\XYGA.exe
+C:\Projects\XYGA\XYGA\obj\Release\XYGA.pdb
